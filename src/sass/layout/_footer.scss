@@ -1,0 +1,144 @@
+/* ********* */
+/* @FOOTER */
+/* ********* */
+
+// Colores
+.links{
+    background-color: $color_footer_scLinks;
+}
+.logoIdiomas{
+    background-color: $color_footer_scLogo;
+}
+.terminosSocial{
+    background-color: $color_footer_scTerminos;
+}
+
+
+// Margenes, espacio
+.links{
+
+    &__contenido{
+        padding: 1rem;
+    }
+}
+.logoIdiomas{
+    &__contenido{
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+.terminosSocial{
+
+    &__contenido{
+        padding: 1rem;
+    }
+}
+
+.centrar{
+    max-width: $anchoMax;
+    margin: 0 auto;
+}
+
+
+// Terminos y condiciones
+.terminosSocial__contenido{
+    display: flex;
+    justify-content: space-between;  
+}
+
+
+// Políticas
+.politicas{
+    column-count: 3;
+    column-rule: 1px solid #909090;
+    margin-top: 10px;
+    margin-left: 40px;
+
+    > *{
+        display: block;
+    }
+}
+
+.politicas__privacidad{
+    text-align: center;
+}
+
+
+// Redes Sociales
+a {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #8788ca;
+    
+}
+
+a:hover {
+    color:#a01919;
+}
+
+.redesSocial {
+    fill: #8788ca;
+}
+
+// Lista
+ul {
+    list-style: none;
+    line-height: 35px;
+}
+
+li{
+    color: #8788ca;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.lista {
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(8, 7, 90);
+}
+
+.texto__Logo{
+    color: #8788ca;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 10px;
+}
+.select__Links {
+    border:none;
+    background: $color_footer_scLinks;
+    color: #8788ca;
+}
+
+.select__Idioma {
+    background: $color_footer_scLinks;
+    color: rgb(8, 7, 90);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-right: 70px;
+    border: none;
+    padding: 5px;
+    border: 1px solid lightgray;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.figure__SecondLayer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoIdioma {
+    width: 80px;
+    height: 80px;
+}
+
+
+
+
+
+
+
